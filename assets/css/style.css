@@ -309,21 +309,25 @@ li {
 .content-carousel {
   display: block;
   margin: 0 auto;
-  padding-left: 100px;
+  padding-left: 160px;
 }
 
 .owl-carousel div {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .owl-carousel .owl-item {
-  height: 775px;
+  height: 86vh;
+}
+
+.owl-item.slidenumber3.active {
 }
 
 .product-img {
   margin-left: auto;
-  max-width: calc(100% - 60px);
   height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .product-img img {
@@ -340,7 +344,7 @@ li {
 .owl-carousel .owl-dots {
   position: absolute;
   top: 0;
-  left: -75px;
+  left: -140px;
   height: 100%;
   max-width: 110px;
 }
@@ -351,7 +355,7 @@ li {
   background-repeat: no-repeat;
   width: 110px;
   margin-bottom: 14px;
-  max-height: 117px;
+  max-height: 13vh;
 }
 
 /*============ Area End =============*/
@@ -366,7 +370,7 @@ li {
 .product__content {
   padding: 30px;
   overflow: scroll;
-  height: 87vh;
+  height: 86vh;
   padding-bottom: 0;
   opacity: 0;
   transition: all .5s;
@@ -539,6 +543,7 @@ li {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .border-none .sofasat__item>a {
