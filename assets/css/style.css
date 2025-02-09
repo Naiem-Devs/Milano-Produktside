@@ -358,14 +358,29 @@ li {
 
 
 /*============ Area Start =============*/
-.product-area {}
+.product-area {
+    position: relative;
+    overflow: hidden;
+}
 
 .product__content {
   padding: 30px;
   overflow: scroll;
   height: 87vh;
   padding-bottom: 0;
-  position: relative;
+  opacity: 0;
+  transition: all .5s;
+  pointer-events: none;
+  /* width: 49%; */
+  padding-top: 0;
+}
+
+.product__content.p__two,.product__content.p__three {
+    right: -800px;
+    top: 0;
+    position: absolute;
+    width: 50%;
+    padding-top: 30px;
 }
 
 .tilbage__link {
@@ -392,6 +407,7 @@ li {
   background: #fff;
   z-index: 9;
   padding-bottom: 20px;
+  padding-top: 30px;
 }
 
 .product__title h2 {
@@ -709,3 +725,12 @@ li {
     color: #000;
 }
 /*============ Area End =============*/
+
+.p__one.show ,
+.p__two.show ,
+.p__three.show 
+{
+  pointer-events: all;
+  right: 0;
+  opacity: 1;
+}
