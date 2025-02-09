@@ -335,14 +335,14 @@ li {
   background: no-repeat;
 }
 
-.gallery-main .swiper-button-next {top: 0;left: 0;}
+.gallery-main .swiper-button-next {bottom: 0;left: 0;}
 .gallery-main .swiper-button-prev::after, .gallery-main .swiper-button-next::after {
   font-size: 12px;
   opacity: 0;
 }
 .gallery-main .swiper-button-prev {
   left: 0;
-  bottom: 0;
+  top: 0;
 }
 
 .gallery-title {
