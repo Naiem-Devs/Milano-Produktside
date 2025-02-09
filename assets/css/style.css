@@ -306,58 +306,103 @@ li {
 
 
 /*============ Area Start =============*/
-.content-carousel {
-  display: block;
-  margin: 0 auto;
-  padding-left: 160px;
-}
-
-.owl-carousel div {
-  /* width: 100%; */
-}
-
-.owl-carousel .owl-item {
-  height: 86vh;
-}
-
-.owl-item.slidenumber3.active {
-}
-
-.product-img {
-  margin-left: auto;
-  height: 100%;
+.gallery-container {
+  position: relative;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
   overflow: hidden;
+  height: 100%;
 }
 
-.product-img img {
+.gallery-main {
+  width: 600px;
+  height: 300px;
+  width: 85%;
+  height: 100%;
+}
+.gallery-main .swiper-button-prev, .gallery-main .swiper-button-next {
+  position: absolute;
+  /* bottom: 0; */
+  right: 0;
+  top: auto;
+  left: auto;
+  width: 120px;
+  /* color: #e9e9e9; */
+  /* background: #1e1e1e; */
+  padding: 21px 25px 0;
+  height: auto;
+  background: no-repeat;
+}
+
+.gallery-main .swiper-button-next {top: 0;left: 0;}
+.gallery-main .swiper-button-prev::after, .gallery-main .swiper-button-next::after {
+  font-size: 12px;
+  opacity: 0;
+}
+.gallery-main .swiper-button-prev {
+  left: 0;
+  bottom: 0;
+}
+
+.gallery-title {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+.swiper-slide-active .gallery-title {
+  -webkit-animation: slide-in 0.3s ease-in both;
+          animation: slide-in 0.3s ease-in both;
+}
+
+.gallery-thumbs {
+  order: -1;
+  width: 120px;
+  height: 295px;
+  flex-shrink: 0;
+  height: 85vh;
+}
+.gallery-thumbs .swiper-slide img {
+  transition: 0.3s;
+}
+.gallery-thumbs .swiper-slide-active {
+  opacity: 0.9;
+}
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.gallery-thumbs .swiper-slide {margin-bottom: 15px;}
+.gallery-thumbs .swiper-wrapper {justify-content: flex-start;top: 65px;}
+.gallery-thumbs .swiper-slide-thumb-active img {
+}
+.swiper-slide img{
+  width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.owl-carousel .owl-controls .owl-dot {
-  background-size: cover;
-  margin-top: 10px;
+@-webkit-keyframes slide-in {
+  from {
+    opacity: 0;
+    right: -50%;
+  }
 }
 
-.owl-carousel .owl-dots {
-  position: absolute;
-  top: 0;
-  left: -140px;
-  height: 100%;
-  max-width: 110px;
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    right: -50%;
+  }
 }
-
-.owl-carousel .owl-dot {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 110px;
-  margin-bottom: 14px;
-  max-height: 13vh;
-}
-
 /*============ Area End =============*/
 
 

@@ -1,23 +1,25 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Site title</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<link rel="shortcut icon" type="image/x-icon" href="#">
-        <!-- Place favicon.ico in the root directory -->
-        
-		<!-- CSS here -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-    </head>
-    <body>
 
-       
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Site title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="#">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+
     <!-- header-area START -->
     <div class="header-area">
         <div class="container lg">
@@ -42,18 +44,18 @@
             </div>
         </div>
     </div>
-        <!-- mobile-menu START -->
-        <div class="mobile-menu">
-            <nav> 
-                <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Services</a></li> 
-                    <li><a href="#">Portfolio</a></li> 
-                    <li><a href="#">Testimonials</a></li> 
-                    <li><a href="#">Contact Us</a></li>  
-                </ul>
-            </nav> 
-        </div> 
+    <!-- mobile-menu START -->
+    <div class="mobile-menu">
+        <nav>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
     <!-- header-area END -->
 
 
@@ -67,14 +69,61 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 text-center">
-                        <div class="content-carousel">
-                            <div class="owl-carousel">
-                                <div class="product-img"> <img src="assets/img/product-immg.png"> </div>
-                                <div class="product-img"> <img src="assets/img/sofa-1.jpg"> </div>
-                                <div class="product-img"> <img src="assets/img/sofa-2.jpg"> </div>
-                                <div class="product-img"> <img src="assets/img/sofa-3.jpg"> </div>
-                                <div class="product-img"> <img src="assets/img/sofa-4.jpg"> </div>
-                                <div class="product-img"> <img src="assets/img/sofa-1.jpg"> </div>
+                        <div class="gallery-container">
+                            <div class="swiper-container gallery-main">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/sofa-1.jpg" alt="Slide 01">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/sofa-2.jpg" alt="Slide 02">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/sofa-3.jpg" alt="Slide 01">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/sofa-4.jpg" alt="Slide 01">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/sofa-1.jpg" alt="Slide 01">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/sofa-2.jpg" alt="Slide 01">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/sofa-3.jpg" alt="Slide 01">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/sofa-4.jpg" alt="Slide 01">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev"><img src="assets/img/arrow-down.png" alt=""></div>
+                                <div class="swiper-button-next"><img src="assets/img/arrow-up.png" alt=""></div>
+                            </div>
+                            <div class="swiper-container gallery-thumbs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                  <img src="assets/img/sofa-1.jpg" alt="Slide 01"></div>
+                                <div class="swiper-slide">
+                                  <img src="assets/img/sofa-2.jpg" alt="Slide 02"></div>
+                                <div class="swiper-slide">
+                                  <img src="assets/img/sofa-3.jpg" alt="Slide 03"></div>
+                                <div class="swiper-slide">
+                                  <img src="assets/img/sofa-4.jpg" alt="Slide 04">
+                                </div>
+                                <div class="swiper-slide">
+                                  <img src="assets/img/sofa-1.jpg" alt="Slide 05">
+                                </div>
+                                <div class="swiper-slide">
+                                  <img src="assets/img/sofa-2.jpg" alt="Slide 06">
+                                </div>
+                                <div class="swiper-slide">
+                                  <img src="assets/img/sofa-3.jpg" alt="Slide 07">
+                                </div>
+                                <div class="swiper-slide">
+                                  <img src="assets/img/sofa-4.jpg" alt="Slide 07">
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -109,7 +158,8 @@
                                     <div class="col-md-6">
                                         <div class="sofasat__item ">
                                             <i class="sofaBtn">
-                                                <a href="" class="edit__link"><img src="assets/img/editing.png" alt=""></a>
+                                                <a href="" class="edit__link"><img src="assets/img/editing.png"
+                                                        alt=""></a>
                                                 <img src="assets/img/sofa-img-1.png" alt="">
                                             </i>
                                             <p>3 pers. sofa</p>
@@ -135,7 +185,8 @@
                                     <div class="col-md-6">
                                         <div class="sofasat__item">
                                             <i class="textureBtn">
-                                                <a href="" class="edit__link"><img src="assets/img/editing.png" alt=""></a>
+                                                <a href="" class="edit__link"><img src="assets/img/editing.png"
+                                                        alt=""></a>
                                                 <img src="assets/img/texture-1.jpg" alt="">
                                             </i>
                                             <p>color pers. sofa</p>
@@ -167,8 +218,14 @@
                             <hr class="my-5">
                             <div class="details__content">
                                 <h3>details</h3>
-                                <p>Deep, generously proportioned sectional sofa designed by Melbourne- based <a href="">VUUE</a> is sophisticated in a snow white performance fabric. The oversized profile is perfect for lounging with family and friends without sacrificing style. Performance fabric withstands spills and other stressors, yet retains the lushness of a high-end textile. Customize the sectional layout to suit your individual space. CB2 exclusive.</p>
-                                <p>Faible 6-Piece U-Shaped White Performance Fabric Sectional Sofa with Left Arm 184"Wx103"Dx29"H</p>
+                                <p>Deep, generously proportioned sectional sofa designed by Melbourne- based <a
+                                        href="">VUUE</a> is sophisticated in a snow white performance fabric. The
+                                    oversized profile is perfect for lounging with family and friends without
+                                    sacrificing style. Performance fabric withstands spills and other stressors, yet
+                                    retains the lushness of a high-end textile. Customize the sectional layout to suit
+                                    your individual space. CB2 exclusive.</p>
+                                <p>Faible 6-Piece U-Shaped White Performance Fabric Sectional Sofa with Left Arm
+                                    184"Wx103"Dx29"H</p>
 
                                 <ul>
                                     <li><i></i> Designed by VUUE</li>
@@ -178,31 +235,43 @@
                                     <li><i></i> Layered foam seat cushion wrapped in polyfiber batting</li>
                                     <li><i></i> Includes anti-slip levelers to prevent movement</li>
                                     <li><i></i> Made in Mexico</li>
-                                    <li><i></i> See product label or call customer service for additional details on product content</li>
+                                    <li><i></i> See product label or call customer service for additional details on
+                                        product content</li>
                                 </ul>
                             </div>
                             <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                        DIMENSIONS
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                  </div>
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            DIMENSIONS
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
                                 </div>
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        CARE
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                  </div>
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            CARE
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            second item's accordion body. Let's imagine this being filled with some
+                                            actual content.</div>
+                                    </div>
                                 </div>
-                              </div>
+                            </div>
                             <div class="feedback__content">
                                 <h4>Find everything you need to know? <a href="">GIVE US FEEDBACK</a></h4>
                             </div>
@@ -322,14 +391,19 @@
 
                                                     <span>• Best Seller</span>
                                                     <h6>CHUNKY WOVEN BOUCLE</h6>
-                                                    <p>Textured poly-acrylic blend fabric has the look and feel of a classic boucle, distinguished by loops of yarn to create its signature nubby texture.</p>
+                                                    <p>Textured poly-acrylic blend fabric has the look and feel of a
+                                                        classic boucle, distinguished by loops of yarn to create its
+                                                        signature nubby texture.</p>
                                                     <ul>
                                                         <li><b>Fabric Type:</b> Boucle</li>
                                                         <li><b>Content:</b> 81% Polyester, 19% Acrylic</li>
                                                         <li><b>Fabric Origin:</b> China</li>
                                                     </ul>
                                                     <h6>CARE INSTRUCTIONS</h6>
-                                                    <p>Blot spills immediately with a clean, absorbent cloth. Spot clean with a water-free stain remover. For stubborn or set stains, work with a professional upholstery cleaning service. (Cleaning Code Reference: S)</p>
+                                                    <p>Blot spills immediately with a clean, absorbent cloth. Spot clean
+                                                        with a water-free stain remover. For stubborn or set stains,
+                                                        work with a professional upholstery cleaning service. (Cleaning
+                                                        Code Reference: S)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -349,14 +423,19 @@
 
                                                     <span>• Best Seller</span>
                                                     <h6>CHUNKY WOVEN BOUCLE</h6>
-                                                    <p>Textured poly-acrylic blend fabric has the look and feel of a classic boucle, distinguished by loops of yarn to create its signature nubby texture.</p>
+                                                    <p>Textured poly-acrylic blend fabric has the look and feel of a
+                                                        classic boucle, distinguished by loops of yarn to create its
+                                                        signature nubby texture.</p>
                                                     <ul>
                                                         <li><b>Fabric Type:</b> Boucle</li>
                                                         <li><b>Content:</b> 81% Polyester, 19% Acrylic</li>
                                                         <li><b>Fabric Origin:</b> China</li>
                                                     </ul>
                                                     <h6>CARE INSTRUCTIONS</h6>
-                                                    <p>Blot spills immediately with a clean, absorbent cloth. Spot clean with a water-free stain remover. For stubborn or set stains, work with a professional upholstery cleaning service. (Cleaning Code Reference: S)</p>
+                                                    <p>Blot spills immediately with a clean, absorbent cloth. Spot clean
+                                                        with a water-free stain remover. For stubborn or set stains,
+                                                        work with a professional upholstery cleaning service. (Cleaning
+                                                        Code Reference: S)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -376,14 +455,19 @@
 
                                                     <span>• Best Seller</span>
                                                     <h6>CHUNKY WOVEN BOUCLE</h6>
-                                                    <p>Textured poly-acrylic blend fabric has the look and feel of a classic boucle, distinguished by loops of yarn to create its signature nubby texture.</p>
+                                                    <p>Textured poly-acrylic blend fabric has the look and feel of a
+                                                        classic boucle, distinguished by loops of yarn to create its
+                                                        signature nubby texture.</p>
                                                     <ul>
                                                         <li><b>Fabric Type:</b> Boucle</li>
                                                         <li><b>Content:</b> 81% Polyester, 19% Acrylic</li>
                                                         <li><b>Fabric Origin:</b> China</li>
                                                     </ul>
                                                     <h6>CARE INSTRUCTIONS</h6>
-                                                    <p>Blot spills immediately with a clean, absorbent cloth. Spot clean with a water-free stain remover. For stubborn or set stains, work with a professional upholstery cleaning service. (Cleaning Code Reference: S)</p>
+                                                    <p>Blot spills immediately with a clean, absorbent cloth. Spot clean
+                                                        with a water-free stain remover. For stubborn or set stains,
+                                                        work with a professional upholstery cleaning service. (Cleaning
+                                                        Code Reference: S)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -403,14 +487,19 @@
 
                                                     <span>• Best Seller</span>
                                                     <h6>CHUNKY WOVEN BOUCLE</h6>
-                                                    <p>Textured poly-acrylic blend fabric has the look and feel of a classic boucle, distinguished by loops of yarn to create its signature nubby texture.</p>
+                                                    <p>Textured poly-acrylic blend fabric has the look and feel of a
+                                                        classic boucle, distinguished by loops of yarn to create its
+                                                        signature nubby texture.</p>
                                                     <ul>
                                                         <li><b>Fabric Type:</b> Boucle</li>
                                                         <li><b>Content:</b> 81% Polyester, 19% Acrylic</li>
                                                         <li><b>Fabric Origin:</b> China</li>
                                                     </ul>
                                                     <h6>CARE INSTRUCTIONS</h6>
-                                                    <p>Blot spills immediately with a clean, absorbent cloth. Spot clean with a water-free stain remover. For stubborn or set stains, work with a professional upholstery cleaning service. (Cleaning Code Reference: S)</p>
+                                                    <p>Blot spills immediately with a clean, absorbent cloth. Spot clean
+                                                        with a water-free stain remover. For stubborn or set stains,
+                                                        work with a professional upholstery cleaning service. (Cleaning
+                                                        Code Reference: S)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -483,53 +572,53 @@
 
     </main>
 
-    
-		<!-- JS here --> 
-        <script src="assets/js/jquery-3.4.1.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script> 
-        <script src="assets/js/main.js"></script>
-        <script>
-            
-  $(document).ready(function(){
-// https://codepen.io/konfuzius/pen/qBrKjew
-$(".owl-carousel").owlCarousel({    
-  loop:true,
-  items:1,
-  margin:40,
-  stagePadding: 0,
-  autoplay:false  
-});
 
-dotcount = 1;
+    <!-- JS here -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
-jQuery('.owl-dot').each(function() {
-  jQuery( this ).addClass( 'dotnumber' + dotcount);
-  jQuery( this ).attr('data-info', dotcount);
-  dotcount=dotcount+1;
-});
+    <script>
+        // https://codepen.io/Gyome/pen/zYGvVRd
+        var galleryThumbs = new Swiper(".gallery-thumbs", {
+            centeredSlides: true,
+            centeredSlidesBounds: true,
+            slidesPerView: 6,
+            watchOverflow: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            direction: 'vertical'
+        });
 
-slidecount = 1;
+        var galleryMain = new Swiper(".gallery-main", {
+            watchOverflow: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            loop: true,
+            preventInteractionOnTransition: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
+            thumbs: {
+                swiper: galleryThumbs
+            }
+        });
 
-jQuery('.owl-item').not('.cloned').each(function() {
-  jQuery( this ).addClass( 'slidenumber' + slidecount);
-  slidecount=slidecount+1;
-});
+        galleryMain.on('slideChangeTransitionStart', function () {
+            galleryThumbs.slideTo(galleryMain.activeIndex);
+        });
 
-jQuery('.owl-dot').each(function() {	
-  grab = jQuery(this).data('info');		
-  slidegrab = jQuery('.slidenumber'+ grab +' img').attr('src');
-  jQuery(this).css("background-image", "url("+slidegrab+")");  	
-});
+        galleryThumbs.on('transitionStart', function () {
+            galleryMain.slideTo(galleryThumbs.activeIndex);
+        });
+    </script>
+</body>
 
-amount = $('.owl-dot').length;
-gotowidth = 100/amount;			
-jQuery('.owl-dot').css("height", gotowidth+"%");
-
-});
-
-        </script>
-    </body>
 </html>
-
